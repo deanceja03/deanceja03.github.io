@@ -71,6 +71,7 @@ ul li:hover a {
     margin-left: 0px;
     letter-spacing: 4px;
     /* [disabled]border-bottom-color: #274B59; */
+    font-size: large;
 }
 /* Hero Section */
 .hero {
@@ -83,12 +84,13 @@ ul li:hover a {
 	color: #717070;
 }
 .tagline {
-	text-align: center;
-	color: #FFFFFF;
-	margin-top: 4px;
-	font-weight: lighter;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 4px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: large;
 }
 /* About Section */
 .text_column {
@@ -300,7 +302,12 @@ footer {
 }
 .aboutmetext {
     font-size: large;
+    text-align: left;
 }
+.portimage {
+    border: thin solid #407364;
+}
+
 
 
 
@@ -419,14 +426,14 @@ header nav ul {
 	float: none;
 }
 nav ul li {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	text-align: center;
-	padding-top: 8px;
-	padding-bottom: 8px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
 }
 .text_column {
 	width: 100%;
@@ -545,4 +552,11 @@ nav ul li {
 }
 .gmail {
     color: #274B59;
+}
+.skillset {
+    text-align: left;
+    text-indent: 39px;
+}
+.indexheadertitle {
+    font-size: 71px;
 }
